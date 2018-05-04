@@ -17,7 +17,7 @@ from pymessenger.bot import Bot
 #element = Element(title="test", image_url="<Barrage.jpg>", subtitle="subtitle", item_url="http://arsenal.com")
 #elements.append(element)
 
-bot.send_generic_message(recipient_id, elements)
+#bot.send_generic_message(recipient_id, elements)
 
 # Set MODEL
 # Set paths for imports
