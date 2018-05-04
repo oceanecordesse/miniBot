@@ -21,8 +21,9 @@ function talkToMiniBot() {
   // HTTP POST request for chatbot answer
   $.ajax({
   type: "POST",
-    //url: "http://127.0.0.1:8888/minibot/api/msg",
-    url: "http://109.31.68.167:8888/minibot/api/msg",
+    //url: "http://127.0.0.1:8888/minibot/api/msg", //ip localhost
+    //url: "http://109.31.68.167:8888/minibot/api/msg", //macbook Océane
+    url: "http://192.168.1.53:8888/minibot/api/msg", //imac Océane
     data: { msg: userInput },
     success: function ( data ) {
       botMsg = data["msg"];
@@ -39,8 +40,9 @@ function complainAboutAnswer() {
   // HTTP POST request for chatbot answer
   $.ajax({
   type: "POST",
-    //url: "http://127.0.0.1:8888/minibot/api/complain",
-    url: "http://109.31.68.167:8888/minibot/api/complain",
+    //url: "http://127.0.0.1:8888/minibot/api/complain", //ip localhost
+    //url: "http://109.31.68.167:8888/minibot/api/complain", //macbook Océane
+    url: "http://192.168.1.53:8888/minibot/api/complain", //imac Océane
     success: function ( data ) {
       formattedMsg = "<p>" + "I apologise, I will notice my developers." + "</p>";
       $("#botDiv").html(formattedMsg); // Update display with chatbot answer
