@@ -1,12 +1,12 @@
 {"intents": [
         {"tag": "bonjour",
-         "patterns": ["Bonjour", "Salut", "Il y a quelqu'un ?", "Ça va ?", "Hello"],
-         "responses": ["Bonjour, merci pour votre présence ici.", "Bonjour", "Bonjour, comment puis-je vous aider ?"],
+         "patterns": ["Bonjour", "Salut", "Ça va ?", "Hello", "Coucou", "Bjr"],
+         "responses": ["Bonjour, bienvenue !", "Bonjour", "Bonjour, comment puis-je vous aider ?"],
          "context_set": ""
         },
-        {"tag": "goodbye",
-         "patterns": ["Bye", "See you later", "Goodbye"],
-         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        {"tag": "Au revoir",
+         "patterns": ["Au revoir", "À bientôt", "Je m'en vais", "À +", "à plus"],
+         "responses": ["À bientôt, merci pour votre visite.", "Bonne journée :-)"]
         },
         {"tag": "thanks",
          "patterns": ["Thanks", "Thank you", "That's helpful"],
