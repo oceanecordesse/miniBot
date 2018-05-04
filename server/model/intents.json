@@ -29,7 +29,7 @@
          "responses": ["Je vais bien, merci.", "Je me sens un peu coincé."]
         },
         {"tag": "nul",
-         "patterns": ["C'est nul", "Tu ne sers à rien", "pourri"],
+         "patterns": ["tu ne sers pas à grand chose","C'est nul", "Tu ne sers à rien", "pourri"],
          "responses": ["Je vais le dire à ma maman", "OK je ne suis pas très fort, mais vous n'êtes pas très encourageant..."]
         },
         {"tag": "rental",
