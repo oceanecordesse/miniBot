@@ -30,7 +30,7 @@
         },
         {"tag": "nul",
          "patterns": ["C'est nul", "Tu ne sers à rien", "pourri"],
-         "responses": ["Je vais le dire à ma maman."]
+         "responses": ["Je vais le dire à ma maman", "OK je ne suis pas très fort, mais vous n'êtes pas très encourageant..."]
         },
         {"tag": "rental",
          "patterns": ["Can we rent a moped?", "I'd like to rent a moped", "How does this work?" ],
@@ -38,8 +38,8 @@
          "context_set": "rentalday"
         },
         {"tag": "bug",
-         "patterns": ["tu n'as pas compris","ce n'est pas ce que je voulais dire", "n'importe quoi","stop"],
-         "responses": ["Pardon, je m'égare, revenons à nos moutons !"],
+         "patterns": ["tu bugues là", "bug", "tu n'as pas compris","ce n'est pas ce que je voulais dire", "n'importe quoi","stop"],
+         "responses": ["Pardon, je m'égare !"],
          "context_filter": "rentalday"
         },
         {"tag": "default",
