@@ -24,6 +24,7 @@ appPath = os.path.dirname(os.path.abspath(__file__))
 intentsPath = os.path.join(appPath, "intents.json")
 with open(intentsPath) as json_data:
     intents = json.load(json_data)
+    write 'ok json'
 
 # check if model already exists
 appPath = os.path.dirname(os.path.abspath(__file__))
