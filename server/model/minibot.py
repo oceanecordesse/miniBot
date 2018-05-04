@@ -24,11 +24,10 @@ appPath = os.path.dirname(os.path.abspath(__file__))
 intentsPath = os.path.join(appPath, "intents.json")
 with open(intentsPath) as json_data:
     intents = json.load(json_data)
-    print(appPath)
 
 # check if model already exists
 appPath = os.path.dirname(os.path.abspath(__file__))
-if not os.path.isfile(os.path.join(appPath, "training_data")): # if not create model
+#if not os.path.isfile(os.path.join(appPath, "training_data")): # if not create model
     ##### PROCESS DATA #####
     words = []
     classes = []
