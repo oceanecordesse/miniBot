@@ -11,6 +11,14 @@ from pymessenger.bot import Bot
 bot = Bot(<EAACEdEose0cBAD2vQDGX5bDKIJYed8weZBOpJrLfxrZCQcVfnlj3sfq80hfDZCQj1ZBo15Fk91Aa7BmXyV5BbZBcJ2X8zksGZARZBSNBfm2KSxKSwaFIMcdWSkZAs1vCeLfQJ5qXjIO78Dyz21vdFfZB982WZAYHrqufYPEwwzXednm3BXN3CCDGF3KMKuvwt1VHH4vBgdZBZCEZASwZDZD>, [optional: app_secret])
 bot.send_text_message(recipient_id, message)
 
+from pymessenger.bot import Bot
+bot = Bot(<EAACEdEose0cBAD2vQDGX5bDKIJYed8weZBOpJrLfxrZCQcVfnlj3sfq80hfDZCQj1ZBo15Fk91Aa7BmXyV5BbZBcJ2X8zksGZARZBSNBfm2KSxKSwaFIMcdWSkZAs1vCeLfQJ5qXjIO78Dyz21vdFfZB982WZAYHrqufYPEwwzXednm3BXN3CCDGF3KMKuvwt1VHH4vBgdZBZCEZASwZDZD>)
+elements = []
+element = Element(title="test", image_url="<Barrage.jpg>", subtitle="subtitle", item_url="http://arsenal.com")
+elements.append(element)
+
+bot.send_generic_message(recipient_id, elements)
+
 # Set MODEL
 # Set paths for imports
 appPath = os.path.dirname(os.path.abspath(__file__))
