@@ -1,6 +1,6 @@
 {"intents": [
         {"tag": "bonjour",
-         "patterns": ["Bonjour", "Salut", "Ça va ?", "Hello", "Coucou", "Bjr"],
+         "patterns": ["Bonjour", "Salut", "Hello", "Coucou", "Bjr"],
          "responses": ["Bonjour, bienvenue !", "Bonjour", "Bonjour, comment puis-je vous aider ?"],
          "context_set": ""
         },
@@ -24,9 +24,9 @@
          "patterns": ["Which mopeds do you have?", "What kinds of mopeds are there?", "What do you rent?" ],
          "responses": ["We rent Yamaha, Piaggio and Vespa mopeds", "We have Piaggio, Vespa and Yamaha mopeds"]
         },
-        {"tag": "payments",
-         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
-         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        {"tag": "ça va?",
+         "patterns": ["ça va?", "ça va toi?", "comment tu vas?" ],
+         "responses": ["Je vais bien, merci.", "Je me sens un peu coincé."]
         },
         {"tag": "opentoday",
          "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
