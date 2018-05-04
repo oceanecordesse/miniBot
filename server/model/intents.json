@@ -10,7 +10,7 @@
         },
         {"tag": "merci",
          "patterns": ["merci", "je vous remercie", "merci beaucoup", "c'est gentil"],
-         "responses": ["Je vous en prie !", "Le plaisir est partagé :)"]
+         "responses": ["Je vous en prie !", "Le plaisir est partagé."]
         },
         {"tag": "bravo",
          "patterns": ["bravo", "pas mal", "top", "bien joué", "félicitations", "super"],
@@ -28,23 +28,23 @@
          "patterns": ["ça va?", "ça va toi?", "comment tu vas?" ],
          "responses": ["Je vais bien, merci.", "Je me sens un peu coincé."]
         },
-        {"tag": "opentoday",
-         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
-         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        {"tag": "nul",
+         "patterns": ["C'est nul", "Tu ne sers à rien", "pourri"],
+         "responses": ["Je vais le dire à ma maman."]
         },
         {"tag": "rental",
          "patterns": ["Can we rent a moped?", "I'd like to rent a moped", "How does this work?" ],
          "responses": ["Are you looking to rent today or later this week?"],
          "context_set": "rentalday"
         },
-        {"tag": "today",
-         "patterns": ["today"],
-         "responses": ["For rentals today please call 1-800-MYMOPED", "Same-day rentals please call 1-800-MYMOPED"],
+        {"tag": "bug",
+         "patterns": ["tu n'as pas compris","ce n'est pas ce que je voulais dire", "n'importe quoi","stop"],
+         "responses": ["Pardon, je m'égare, revenons à nos moutons !"],
          "context_filter": "rentalday"
         },
         {"tag": "default",
          "patterns": [""],
-         "responses": ["I apologise, I'm afraid I don't understand what you mean."]
+         "responses": ["Je suis désolé, je n'ai pas compris."]
         }
    ]
 }
