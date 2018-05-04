@@ -8,13 +8,17 @@
          "patterns": ["Au revoir", "À bientôt", "Je m'en vais", "À +", "à plus"],
          "responses": ["À bientôt, merci pour votre visite.", "Bonne journée :-)"]
         },
-        {"tag": "thanks",
-         "patterns": ["Thanks", "Thank you", "That's helpful"],
-         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        {"tag": "merci",
+         "patterns": ["merci", "je vous remercie", "merci beaucoup", "c'est gentil"],
+         "responses": ["Je vous en prie !", "Le plaisir est partagé :)"]
         },
-        {"tag": "hours",
-         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
-         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        {"tag": "bravo",
+         "patterns": ["bravo", "pas mal", "top", "bien joué", "félicitations", "super"],
+         "responses": ["Merci :)", "Je fais de mon mieux."]
+        },
+        {"tag": "utilité",
+         "patterns": ["À quoi tu sers?", "qu'est-ce que tu sais faire?", "tu sers à quoi?" ],
+         "responses": ["Pour l'instant je ne sais pas faire grand chose..."]
         },
         {"tag": "mopeds",
          "patterns": ["Which mopeds do you have?", "What kinds of mopeds are there?", "What do you rent?" ],
