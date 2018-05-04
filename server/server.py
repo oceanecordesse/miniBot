@@ -6,6 +6,11 @@ import json
 import logging
 import datetime
 
+#Messenger
+from pymessenger.bot import Bot
+bot = Bot(<EAACEdEose0cBAD2vQDGX5bDKIJYed8weZBOpJrLfxrZCQcVfnlj3sfq80hfDZCQj1ZBo15Fk91Aa7BmXyV5BbZBcJ2X8zksGZARZBSNBfm2KSxKSwaFIMcdWSkZAs1vCeLfQJ5qXjIO78Dyz21vdFfZB982WZAYHrqufYPEwwzXednm3BXN3CCDGF3KMKuvwt1VHH4vBgdZBZCEZASwZDZD>, [optional: app_secret])
+bot.send_text_message(recipient_id, message)
+
 # Set MODEL
 # Set paths for imports
 appPath = os.path.dirname(os.path.abspath(__file__))
