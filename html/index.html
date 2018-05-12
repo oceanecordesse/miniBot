@@ -16,21 +16,20 @@
 </head>
 
 <body>
-  <div id='botDiv'>
-    <p>Hello, my name is miniBot.</p>
-    <p>I cannot do much yet, but I will still try to help you ;)</p>
+  <div id="historyDiv" overflow:auto>
   </div>
-  <div class="buttonWrapper">
-    <button id="badAnswerButton" type="button" onclick="complainAboutAnswer();">That's not so bright of you...</button>
+  <div id='botDiv'>
+    <p>Bonjour, je m'appelle Prof-Co.</p>
+    <p>Je ne sais pas encore faire grand chose, mais je peux essayer de vous aider :)</p>
   </div>
   <div id='userDiv'>
     <form name="userInput" onsubmit="return talkToMiniBot()">
-      Talk to miniBot:</br>
-      <input type="text" name="userInput"><br>
+      <input type="text" name="userInput" placeholder="Parler au chatbot" autocomplete="off"><br>
     </form>
   </div>
-  <div id="historyDiv" overflow:auto>
-
+  <div class="buttonWrapper">
+    <button id="badAnswerButton" type="button" onclick="complainAboutAnswer();">RÉPONSE NON PERTINENTE</button>
   </div>
+
 </body>
 </html>
