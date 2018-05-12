@@ -1,11 +1,11 @@
 {"intents": [
         {"tag": "bonjour",
-         "patterns": ["Bonjour", "Salut", "Hello", "Coucou", "Bjr"],
+         "patterns": ["Bonjour", "Salut", "Hello", "Coucou", "Bjr", "hola", "slt"],
          "responses": ["Bonjour, bienvenue !", "Bonjour", "Bonjour, comment puis-je vous aider ?"],
          "context_set": ""
         },
         {"tag": "Au revoir",
-         "patterns": ["Au revoir", "À bientôt", "Je m'en vais", "À +", "à plus"],
+         "patterns": ["Au revoir", "À bientôt", "Je m'en vais", "À +", "à plus", "bye"],
          "responses": ["À bientôt, merci pour votre visite.", "Bonne journée :-)"]
         },
         {"tag": "merci",
@@ -17,28 +17,19 @@
          "responses": ["Merci :)", "Je fais de mon mieux."]
         },
         {"tag": "utilité",
-         "patterns": ["À quoi tu sers?", "qu'est-ce que tu sais faire?", "tu sers à quoi?" ],
+         "patterns": ["À quoi tu sers?", "qu'est-ce que tu sais faire?", "tu sers à quoi?","tu sais faire quoi?"],
          "responses": ["Pour l'instant je ne sais pas faire grand chose..."]
-        },
-        {"tag": "mopeds",
-         "patterns": ["Which mopeds do you have?", "What kinds of mopeds are there?", "What do you rent?" ],
-         "responses": ["We rent Yamaha, Piaggio and Vespa mopeds", "We have Piaggio, Vespa and Yamaha mopeds"]
         },
         {"tag": "ça va?",
          "patterns": ["ça va?", "ça va toi?", "comment tu vas?" ],
-         "responses": ["Je vais bien, merci.", "Je me sens un peu coincé."]
+         "responses": ["Je vais bien, merci.", "Je me suis réveillé avec un petit torticolis, mais ça va."]
         },
         {"tag": "nul",
-         "patterns": ["tu ne sers pas à grand chose","C'est nul", "Tu ne sers à rien", "pourri"],
-         "responses": ["Je vais le dire à ma maman", "OK je ne suis pas très fort, mais vous n'êtes pas très encourageant..."]
-        },
-        {"tag": "rental",
-         "patterns": ["Can we rent a moped?", "I'd like to rent a moped", "How does this work?" ],
-         "responses": ["Are you looking to rent today or later this week?"],
-         "context_set": "rentalday"
+         "patterns": ["tu ne sers pas à grand chose","C'est nul", "Tu ne sers à rien", "pourri", "pas génial", "nul"],
+         "responses": ["J'admets que je ne suis pas encore très fort", "OK je ne suis pas très fort, mais vous n'êtes pas très encourageant..."]
         },
         {"tag": "bug",
-         "patterns": ["tu bugues là", "bug", "tu n'as pas compris","ce n'est pas ce que je voulais dire", "n'importe quoi","stop"],
+         "patterns": ["tu bugues là", "bug", "tu n'as pas compris","ce n'est pas ce que je voulais dire", "n'importe quoi","stop", "rien à voir","tu dérailles"],
          "responses": ["Pardon, je m'égare !"],
          "context_filter": "rentalday"
         },
